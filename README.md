@@ -1,31 +1,32 @@
 # Python Sentiment Analyzer
 
-This project analyzes the sentiment of a sentence using Python and the TextBlob NLP library.
+This project analyzes the sentiment of a sentence using Python and the TextBlob Natural Language Processing (NLP) library.
+
+The application can detect whether a sentence expresses **positive, negative, or neutral sentiment**.
+
+---
 
 ## Features
+
 - Detects Positive, Negative, or Neutral sentiment
 - Uses TextBlob polarity scoring
-- Accepts user input from terminal
+- Interactive **Streamlit web interface**
+- Accepts user input and analyzes sentiment instantly
+
+---
 
 ## Technologies Used
+
 - Python
 - TextBlob
+- Streamlit
 - Natural Language Processing (NLP)
+
+---
 
 ## Installation
 
-Install the required library:
+Install the required libraries:
 
-pip install textblob
-
-## Run the Program
-
-python sentiment_analyzer.py
-
-## Example
-
-Input:
-I am very happy today
-
-Output:
-Positive Sentiment
+```bash
+python -m pip install textblob streamlit
